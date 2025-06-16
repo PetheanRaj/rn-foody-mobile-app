@@ -11,6 +11,15 @@
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		761780ED2CA45674006654EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761780EC2CA45674006654EE /* AppDelegate.swift */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		8A4E7DC3EB8C4A14B79DD1A4 /* Sen-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C09299AB10094C049E32461B /* Sen-VariableFont_wght.ttf */; };
+		59B7C28C00304163BAE33C13 /* Sen-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 132B433458BB4187AFB4E4EF /* Sen-Bold.ttf */; };
+		0A17EDC03DB44C69A9704EE8 /* Sen-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B4A2BA6A79F1466A90BB9FBA /* Sen-ExtraBold.ttf */; };
+		2B630339140C400EBB17CCCD /* Sen-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 14BCDAA79FA24E5087AEEB6A /* Sen-Medium.ttf */; };
+		037F7780E21648F89060CE1D /* Sen-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2D5274FEC58B40FD97021165 /* Sen-Regular.ttf */; };
+		0CA9297B0991446AB12F3D83 /* Sen-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1E5DBE8C48594743B1B27180 /* Sen-SemiBold.ttf */; };
+		48F902348E854657B531B2B5 /* OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6ECF13F65F214F98B352A8A1 /* OFL.txt */; };
+		B5AEE3CCA5354B258B1126B0 /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0670C9D48C704A9D819990D3 /* README.txt */; };
+		C044492AF716476E8620F472 /* Sen.zip in Resources */ = {isa = PBXBuildFile; fileRef = 3ED5FDDC9E2A4196AF49AB47 /* Sen.zip */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +44,15 @@
 		761780EC2CA45674006654EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = MyReactNativeApp/AppDelegate.swift; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = MyReactNativeApp/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		C09299AB10094C049E32461B /* Sen-VariableFont_wght.ttf */ = {isa = PBXFileReference; name = "Sen-VariableFont_wght.ttf"; path = "../src/assets/font/Sen/Sen-VariableFont_wght.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		132B433458BB4187AFB4E4EF /* Sen-Bold.ttf */ = {isa = PBXFileReference; name = "Sen-Bold.ttf"; path = "../src/assets/font/Sen/static/Sen-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		B4A2BA6A79F1466A90BB9FBA /* Sen-ExtraBold.ttf */ = {isa = PBXFileReference; name = "Sen-ExtraBold.ttf"; path = "../src/assets/font/Sen/static/Sen-ExtraBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		14BCDAA79FA24E5087AEEB6A /* Sen-Medium.ttf */ = {isa = PBXFileReference; name = "Sen-Medium.ttf"; path = "../src/assets/font/Sen/static/Sen-Medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		2D5274FEC58B40FD97021165 /* Sen-Regular.ttf */ = {isa = PBXFileReference; name = "Sen-Regular.ttf"; path = "../src/assets/font/Sen/static/Sen-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		1E5DBE8C48594743B1B27180 /* Sen-SemiBold.ttf */ = {isa = PBXFileReference; name = "Sen-SemiBold.ttf"; path = "../src/assets/font/Sen/static/Sen-SemiBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		6ECF13F65F214F98B352A8A1 /* OFL.txt */ = {isa = PBXFileReference; name = "OFL.txt"; path = "../src/assets/font/Sen/OFL.txt"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		0670C9D48C704A9D819990D3 /* README.txt */ = {isa = PBXFileReference; name = "README.txt"; path = "../src/assets/font/Sen/README.txt"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		3ED5FDDC9E2A4196AF49AB47 /* Sen.zip */ = {isa = PBXFileReference; name = "Sen.zip"; path = "../src/assets/font/Sen.zip"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +111,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				B5FA0AA910E24BD6B38E6CF1 /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -115,6 +134,23 @@
 			);
 			path = Pods;
 			sourceTree = "<group>";
+		};
+		B5FA0AA910E24BD6B38E6CF1 /* Resources */ = {
+			isa = "PBXGroup";
+			children = (
+				C09299AB10094C049E32461B /* Sen-VariableFont_wght.ttf */,
+				132B433458BB4187AFB4E4EF /* Sen-Bold.ttf */,
+				B4A2BA6A79F1466A90BB9FBA /* Sen-ExtraBold.ttf */,
+				14BCDAA79FA24E5087AEEB6A /* Sen-Medium.ttf */,
+				2D5274FEC58B40FD97021165 /* Sen-Regular.ttf */,
+				1E5DBE8C48594743B1B27180 /* Sen-SemiBold.ttf */,
+				6ECF13F65F214F98B352A8A1 /* OFL.txt */,
+				0670C9D48C704A9D819990D3 /* README.txt */,
+				3ED5FDDC9E2A4196AF49AB47 /* Sen.zip */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+			path = "";
 		};
 /* End PBXGroup section */
 
@@ -185,6 +221,15 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				8A4E7DC3EB8C4A14B79DD1A4 /* Sen-VariableFont_wght.ttf in Resources */,
+				59B7C28C00304163BAE33C13 /* Sen-Bold.ttf in Resources */,
+				0A17EDC03DB44C69A9704EE8 /* Sen-ExtraBold.ttf in Resources */,
+				2B630339140C400EBB17CCCD /* Sen-Medium.ttf in Resources */,
+				037F7780E21648F89060CE1D /* Sen-Regular.ttf in Resources */,
+				0CA9297B0991446AB12F3D83 /* Sen-SemiBold.ttf in Resources */,
+				48F902348E854657B531B2B5 /* OFL.txt in Resources */,
+				B5AEE3CCA5354B258B1126B0 /* README.txt in Resources */,
+				C044492AF716476E8620F472 /* Sen.zip in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
