@@ -3,12 +3,12 @@ import colors from "../../constants/colors";
 
 const categoryStyles = StyleSheet.create({
   categoryList: {
-    paddingVertical: 10,
+    // paddingVertical: 10,
   },
   categoryItem: {
     paddingHorizontal: 20,
-    height: 50,
-    justifyContent: 'center',
+    height: 100,
+    alignItems: 'center',
     marginHorizontal: 5,
     backgroundColor: colors.lightGray,
     borderRadius: 5,

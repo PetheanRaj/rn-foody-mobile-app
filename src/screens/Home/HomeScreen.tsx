@@ -15,6 +15,20 @@ const HomeScreen = ({navigation} : any) => {
   const [filteredRestaurants, setFilteredRestaurants] = useState(restaurantsData);
   const [selectedCategoryId, setSelectedCategoryId] = useState<number | null>(null);
 
+  const videos = [
+    require('../../assets/videos/food1.mp4'),
+    require('../../assets/videos/food2.mp4'),
+    require('../../assets/videos/food3.mp4'),
+    require('../../assets/videos/food4.mp4'),
+    require('../../assets/videos/food5.mp4'),
+    require('../../assets/videos/food6.mp4'),
+    require('../../assets/videos/food7.mp4'),
+    require('../../assets/videos/food8.mp4'),
+    require('../../assets/videos/food9.mp4'),
+    require('../../assets/videos/food10.mp4'),
+    require('../../assets/videos/food11.mp4'),
+  ]
+
   const handleSearch = (query: string) => {
     if (query) {
       const filtered = restaurants.filter(restaurant =>
@@ -42,7 +56,7 @@ const HomeScreen = ({navigation} : any) => {
     <SafeAreaView style={{ flex: 1 }}>
       <View style={[homeStyles.container, { flex: filteredRestaurants.length > 2 ? 1 : 0 }]}>
         <Header navigation={navigation} />
-        <MediaPlayer/>
+        <MediaPlayer videos={videos}/>
         <SearchBar onSearch={handleSearch} />
         <CategoryList
           categories={categories}
